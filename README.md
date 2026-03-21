@@ -446,6 +446,3 @@ Este laboratorio ha proporcionado una experiencia práctica completa en la confi
 
 La configuración resultante proporciona una plataforma sólida para ejecutar aplicaciones containerizadas en un entorno altamente disponible y escalable. El conocimiento adquirido puede aplicarse tanto en escenarios de laboratorio como en despliegues de producción, adaptando los principios a diferentes necesidades y restricciones de infraestructura.
 
----
-
-**Fin de la documentación**
