@@ -1,0 +1,23 @@
+kubectl get nodes
+
+kubectl get pods -n kube-system
+
+kubectl create deployment nginx-test --image=nginx
+
+kubectl get pods -o wide
+
+kubectl expose deployment nginx-test --port=80 --type=NodePort
+
+kubectl get svc
+
+curl http://<IP_DEL_WORKER>:<PUERTO_ASIGNADO>
+
+kubectl get pods -n kube-system -l k8s-app=kube-dns
+
+kubectl logs -n kube-system -l k8s-app=kube-dns
+
+
+PREGUNTAR RESPECTO A:
+
+kubectl run curl-test --image=radial/busyboxplus:curl -i --tty --rm
+
